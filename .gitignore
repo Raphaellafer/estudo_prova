@@ -1,3 +1,12 @@
+# Adicionar arquivos e diretórios que você deseja ignorar no repositório Git
+# Referência: https://git-scm.com/docs/gitignore
+certificado_aiven/
+certificado_aiven/*
+
+*.cred
+*.pem
+.cred
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
